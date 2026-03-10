@@ -3,7 +3,7 @@
 ## Overview
 This Power BI project provides a comprehensive, interactive dashboard for tracking and analyzing global sales performance. The goal of this project was to transform raw transactional data into actionable insights for senior leadership, focusing on Year-over-Year (YoY) growth, regional market share, and top-tier customer performance.
 
-![Dashboard Preview](./dashboard_preview.png)
+![Dashboard Preview](dashboard_preview.png)
 
 ## Business Questions Answered
 * **Revenue Trends:** How is revenue trending month-over-month, and how does the current year compare to the previous year?
@@ -17,7 +17,7 @@ I built a robust Star Schema to ensure efficient querying and accurate time-inte
 * Created active 1-to-many relationships between Dim_Date[Date] and Fact_Sales[OrderDate].
 * Integrated a Python ETL script (ETL-Script.ipynb) for initial data cleaning and normalization.
 
-![Data Model](./data_model.png)
+![Data Model](data_model.png)
 
 ## Key DAX Measures
 To ensure dynamic and error-free calculations regardless of the filter context, I used safe division and explicit time-shifting functions.
